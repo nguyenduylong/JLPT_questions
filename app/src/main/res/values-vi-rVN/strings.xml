@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tokui JLPT Questions</string>
+    <string name="goi_label">Từ vựng</string>
+    <string name="bunpou_label">Ngữ pháp</string>
+    <string name="kanji_label">Kanji</string>
+    <string name="setting_label">Cài đặt</string>
+    <string name="next_button">Tiếp theo</string>
+    <string name="prev_button">Quay lại</string>
+    <string name="app_label">Tokui JLPT</string>
+    <string name="check_button">Kết quả</string>
+    <string name="restart_button">Làm tiếp</string>
+    <string name="ok_button">Đóng</string>
+    <string name="good_result">よく頑張ったね！</string>
+    <string name="not_good_result">まだ時間はあるから、これからも一緒にがんばろう</string>
+    <string name="quiz_score">Bạn trả lời đúng : </string>
+    <string name="level">Trình độ: </string>
+    <string name="exam_time">Thời gian làm : </string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="time_required">Hãy nhập thời gian test !</string>
+    <string name="level_required">Hãy chọn mức độ câu hỏi !</string>
+    <string name="no_question">Câu hỏi chưa được soạn  !</string>
+    <string name="time_unit">phút</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_goi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/label_font"
+        android:textSize="@dimen/app_label_text_size"
+        android:text="@string/app_label"
+        android:textColor="@color/colorAppLabel"/>
+
+    <Button
+        android:id="@+id/button_bunpou"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button_setting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:text="@string/bunpou_label"
+        android:fontFamily="@font/fty_strategycid"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bunpou_button"/>
+
+    <Button
+        android:id="@+id/button_kanji"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button_bunpou"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:text="@string/kanji_label"
+        android:fontFamily="@font/fty_strategycid"
+        android:textColor="@android:color/white"
+        android:background="@drawable/kanji_button"/>
+
+    <Button
+        android:id="@+id/button_goi"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button_kanji"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:text="@string/goi_label"
+        android:fontFamily="@font/fty_strategycid"
+        android:textColor="@android:color/white"
+        android:background="@drawable/goi_button"/>
+
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="40dp"
+        android:text="@string/setting_label"
+        android:fontFamily="@font/fty_strategycid"
+        android:textColor="@android:color/white"
+        android:background="@drawable/setting_button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

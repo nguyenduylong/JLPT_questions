@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tokui JLPT Questions</string>
+    <string name="goi_label">語彙</string>
+    <string name="bunpou_label">文法</string>
+    <string name="kanji_label">漢字</string>
+    <string name="setting_label">設定</string>
+    <string name="next_button">次へ</string>
+    <string name="prev_button">戻る</string>
+    <string name="app_label">Tokui JLPT</string>
+    <string name="check_button">チェック</string>
+    <string name="restart_button">次のテスト</string>
+    <string name="ok_button">閉める</string>
+    <string name="good_result">よく頑張ったね！</string>
+    <string name="not_good_result">まだ時間はあるから、これからも一緒にがんばろう</string>
+    <string name="quiz_score">正解 : </string>
+    <string name="level">レベル: </string>
+    <string name="exam_time">テストタイム : </string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="time_required">テストタイムを入力してください !</string>
+    <string name="level_required">レベルを洗濯してください !</string>
+    <string name="no_question">問がたりません !</string>
+    <string name="time_unit">分</string>
+</resources>
